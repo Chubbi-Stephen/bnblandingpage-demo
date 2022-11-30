@@ -1,28 +1,17 @@
 import React from 'react'
-import { useState } from 'react'
+import { Route, Routes } from 'react-router-dom'
 import Head from './Head'
-import Hero from './Hero'
-import Adventure from './Adventure'
-import Nft from './Nft'
-import Footer from './Footer'
-import Modal from './Modal'
+import Home from './Home'
+import Place from './Place'
 
 function App() {
-  const [isModalOpen, setIsModalOpen] = useState(false)
-
   return (
     <>
-      <header>
-        <Head onClick={() => setIsModalOpen(true)} />
-        <Hero />
-        <Adventure />
-        <Nft />
-        <Footer />
-        <Modal
-          modalOpen={isModalOpen}
-          modalClose={() => setIsModalOpen(false)}
-        ></Modal>
-      </header>
+      <Head />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/places" element={<Place />} />
+      </Routes>
     </>
   )
 }

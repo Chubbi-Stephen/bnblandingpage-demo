@@ -162,6 +162,7 @@ form {
   width: 80%;
   margin: auto;
   margin-top: 2rem;
+  margin-bottom: 3rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
@@ -205,7 +206,6 @@ img.star {
 
 .nft {
   background: #a02279;
-  margin-top: 2rem;
   height: 450px;
   display: flex;
   align-items: center;
@@ -304,4 +304,36 @@ img.star {
 .footer-list h4 {
   text-align: left;
   font-size: 0.8rem;
+}
+
+/* LOCATION */
+
+.location {
+  width: 80%;
+  margin-top: 4rem;
+  /* background: #ef1; */
+  margin: 1rem auto;
+}
+
+.location nav {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.location nav div {
+  display: flex;
+  align-items: center;
+}
+
+.location nav ul {
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.location nav ul li {
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 500;
 }

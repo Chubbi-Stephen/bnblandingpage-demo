@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from './logopng.png'
+import { Link } from 'react-router-dom'
 // import { useState } from 'react'
 
 const Head = () => {
@@ -13,22 +14,20 @@ const Head = () => {
           <img src={logo} alt="logo-illustration" className="logo" />
           <ul>
             <li>
-              <a href="#">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="#">Place to stay</a>
+              {' '}
+              <Link to="/places">Place to stay</Link>
             </li>
             <li>
-              <a href="#">NFT's</a>
+              <Link>NFT's</Link>
             </li>
             <li>
-              <a href="#">Community</a>
+              <Link>Community</Link>
             </li>
           </ul>
-          <button
-            // type="submit"
-            className="btn"
-          >
+          <button type="submit" className="btn">
             Connect wallet
           </button>
         </nav>
