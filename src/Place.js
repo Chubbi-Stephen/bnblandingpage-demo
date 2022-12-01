@@ -8,6 +8,7 @@ const Place = () => {
     <>
       <Location />
       <Gallery />
+      <Gallery />
       <Footer />
     </>
   )
