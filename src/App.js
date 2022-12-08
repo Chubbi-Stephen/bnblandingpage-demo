@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Head from './Head';
 import HomePage from './pages';
-import Place from './Place';
+// import Place from './Place';
 
 function App() {
   return (
