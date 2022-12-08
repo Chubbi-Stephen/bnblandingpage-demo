@@ -1,13 +1,13 @@
 import React from 'react';
-import card1 from './card-1.png';
-import card2 from './card-2.png';
-import card3 from './card-3.png';
-import card4 from './card-4.png';
-import card5 from './card-5.png';
-import card6 from './card-6.png';
-import card7 from './card-7.png';
-import card8 from './card-8.png';
-import star from './stars.png';
+import card1 from './assets/images/png/card-1.png';
+import card2 from './assets/images/png/card-2.png';
+import card3 from './assets/images/png/card-3.png';
+import card4 from './assets/images/png/card-4.png';
+import card5 from './assets/images/png/card-5.png';
+import card6 from './assets/images/png/card-6.png';
+import card7 from './assets/images/png/card-7.png';
+import card8 from './assets/images/png/card-8.png';
+import star from './assets/images/png/stars.png';
 
 const Gallery = () => {
   return (
