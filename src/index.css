@@ -277,6 +277,7 @@ img.star {
 .footer-img {
   width: 30%;
   height: 10%;
+  padding: 5rem;
 }
 
 .footer-img img {
@@ -367,6 +368,13 @@ img.star {
   z-index: 1000;
 }
 
-/* .modal-container section {
-  position: fixed;
-} */
+
+.leftBtn{
+  width: 40%;
+  position: absolute;
+  right: 0;
+  background: #fff;
+  color: #1d1d1e;
+  font-weight: bold;
+  padding-left: 150px;
+}
