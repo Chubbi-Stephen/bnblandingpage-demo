@@ -22,7 +22,7 @@ function Modal({ isOpen, onClose }) {
     <>
       <div style={OverlayStyles} />
       <article className="modal-container">
-      <button onClick={onClose} className="btn leftBtn">Close Modal</button>
+      <button onClick={onClose} className="btn leftBtn">Close</button>
         <section>
           <img src={wallet} alt="" />
         </section>

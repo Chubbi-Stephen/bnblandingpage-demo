@@ -375,6 +375,8 @@ img.star {
   right: 0;
   background: #fff;
   color: #1d1d1e;
-  font-weight: bold;
+  font-size: large;
+  font-weight: 900;
   padding-left: 150px;
+  text-transform: uppercase;
 }
